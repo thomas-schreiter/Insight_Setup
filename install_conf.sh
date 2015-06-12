@@ -1,6 +1,6 @@
 # check input arguments
 if [ "$#" -ne 2 ]; then
-    echo "Please specify pem-key location and public_dns file" && exit 1
+    echo "Please specify pem-key and public_dns file" && exit 1
 fi
 
 # copy config file over to server
